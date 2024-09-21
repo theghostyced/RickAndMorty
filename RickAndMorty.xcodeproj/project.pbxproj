@@ -12,6 +12,7 @@
 		8447C5BD2C9ED63C00680E48 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C5BC2C9ED63C00680E48 /* RMEndpoint.swift */; };
 		8447C5BF2C9EDB0B00680E48 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C5BE2C9EDB0B00680E48 /* RMOrigin.swift */; };
 		8447C5C12C9EDB8C00680E48 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C5C02C9EDB8C00680E48 /* RMSingleLocation.swift */; };
+		8447C5C52C9EF8EC00680E48 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C5C42C9EF8EC00680E48 /* RMGetAllCharactersResponse.swift */; };
 		8470D4512C9E1A9200E11926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D4502C9E1A9200E11926 /* AppDelegate.swift */; };
 		8470D4532C9E1A9200E11926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D4522C9E1A9200E11926 /* SceneDelegate.swift */; };
 		8470D4552C9E1A9200E11926 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D4542C9E1A9200E11926 /* RMTabBarController.swift */; };
@@ -32,6 +33,7 @@
 		8447C5BC2C9ED63C00680E48 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 		8447C5BE2C9EDB0B00680E48 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
 		8447C5C02C9EDB8C00680E48 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		8447C5C42C9EF8EC00680E48 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		8470D44D2C9E1A9200E11926 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470D4502C9E1A9200E11926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8470D4522C9E1A9200E11926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8447C5C22C9EF8AD00680E48 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				8470D46B2C9E1E0E00E11926 /* RMLocation.swift */,
+				8470D46D2C9E1E1D00E11926 /* RMCharacter.swift */,
+				8470D46F2C9E1E2700E11926 /* RMEpisode.swift */,
+				8447C5BE2C9EDB0B00680E48 /* RMOrigin.swift */,
+				8447C5C02C9EDB8C00680E48 /* RMSingleLocation.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		8447C5C32C9EF8C200680E48 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				8447C5C42C9EF8EC00680E48 /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
+			sourceTree = "<group>";
+		};
 		8470D4442C9E1A9200E11926 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +123,8 @@
 		8470D4652C9E1D2200E11926 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8470D46B2C9E1E0E00E11926 /* RMLocation.swift */,
-				8470D46D2C9E1E1D00E11926 /* RMCharacter.swift */,
-				8470D46F2C9E1E2700E11926 /* RMEpisode.swift */,
-				8447C5BE2C9EDB0B00680E48 /* RMOrigin.swift */,
-				8447C5C02C9EDB8C00680E48 /* RMSingleLocation.swift */,
+				8447C5C32C9EF8C200680E48 /* APIResponseTypes */,
+				8447C5C22C9EF8AD00680E48 /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +259,7 @@
 				8470D4702C9E1E2700E11926 /* RMEpisode.swift in Sources */,
 				8470D4552C9E1A9200E11926 /* RMTabBarController.swift in Sources */,
 				8470D4772C9E1EDE00E11926 /* RMEpisodeViewController.swift in Sources */,
+				8447C5C52C9EF8EC00680E48 /* RMGetAllCharactersResponse.swift in Sources */,
 				8470D4512C9E1A9200E11926 /* AppDelegate.swift in Sources */,
 				8470D4532C9E1A9200E11926 /* SceneDelegate.swift in Sources */,
 				8470D4792C9E1EE700E11926 /* RMSettingsViewController.swift in Sources */,
