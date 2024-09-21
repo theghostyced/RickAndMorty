@@ -15,7 +15,7 @@ final class RMService {
     
     /// Privatized constructor
     private init() {
-         
+        
     }
     
     /// Send Rick and Morty API call
